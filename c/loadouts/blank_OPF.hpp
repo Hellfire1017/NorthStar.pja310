@@ -76,7 +76,7 @@
 #define LEADER_TOOLS BASE_LEADER_TOOLS,SIDE_KEY
 #define LINKED BASE_LINKED
 #define LEADER_LINKED BASE_LEADER_LINKED
-#define CARRYALL "B_Carryall_mcamo"
+#define CARRYALL "UK3CB_UN_B_B_ASS"
 #define GOG
 
 // Specialized Resupply Vehicle Loadouts
@@ -342,10 +342,10 @@ class sniper: spotter {// Sniper
 
 // Air
 class pilot {// Pilot
-  uniform[] = {"U_B_HeliPilotCoveralls"};
-  backpack[] = {"B_assaultpack_sgg"};
-  vest[] = {"V_TacVest_blk"};
-  headgear[] = {"H_PilotHelmetHeli_B"};
+  uniform[] = {"UK3CB_TKA_I_U_H_Pilot_01_DES"};
+  backpack[] = {"UK3CB_B_Alice_K"};
+  vest[] = {"rhs_gear_OFF"};
+  headgear[] = {"rhs_zsh7a_mike_green"};
   weapons[] = {SMG};
   magazines[] = {SMG_MAG,CREW_GRENADES};
   backpackItems[] = {SIDE_KEY,RADIO_LR};
@@ -362,6 +362,10 @@ class cc: helicrew {// Crew Chief
 
 //Armor
 class vicc: Fic_Soldier_Carbine {// Crew
+  uniform[] = {"UK3CB_TKP_I_U_QRF_CombatUniform_BLK"};
+  backpack[] = {"UK3CB_B_Alice_K"};
+  vest[] = {"rhs_gear_OFF"};
+  headgear[] = {"UK3CB_TKP_O_H_Patrolcap_Off_Blk"};
   magazines[] = {CARBINE_MAG,CREW_GRENADES};
   backpackItems[] = {SIDE_KEY,RADIO_LR,RADIO_MR};
   linkedItems[] = {LINKED,LEADER_LINKED,BINOS};

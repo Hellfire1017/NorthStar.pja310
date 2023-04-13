@@ -25,13 +25,13 @@
 #define CARBINE_MAG "rhs_30Rnd_762x39mm_bakelite:8"
 // AR
 #define AR "UK3CB_RPK"
-#define AR_MAG "rhs_75Rnd_762x39mm_tracer:5"
+#define AR_MAG "rhs_75Rnd_762x39mm_tracer:4"
 // AT
 #define AT "rhs_weap_rpg7"
 #define AT_MAG "rhs_rpg7_PG7V_mag:1","rhs_rpg7_OG7V_mag:1"
 // MMG
 #define MMG "rhs_weap_pkm"
-#define MMG_MAG "rhs_100Rnd_762x54mmR_green:5"
+#define MMG_MAG "rhs_100Rnd_762x54mmR_green:4"
 #define MMG_ATT ""
 // MAT
 #define MAT "rhs_weap_rpg7"

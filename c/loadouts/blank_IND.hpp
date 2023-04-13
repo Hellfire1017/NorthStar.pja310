@@ -10,19 +10,19 @@
 #define CAMO_HEADGEAR "H_Shemag_olive_hs"
 // Rifle
 #define RIFLE "rhs_weap_akm"
-#define RIFLE_MAG "rhs_30Rnd_762x39mm_bakelite:10"
+#define RIFLE_MAG "rhs_30Rnd_762x39mm_bakelite:6"
 #define RIFLE_ATTACHMENTS "rhs_acc_pbs1"
 #define AR_ATTACHMENTS RIFLE_ATTACHMENTS, "rhs_acc_pbs1"
 #define ALT_OPTICS "optic_Aco","CUP_optic_CompM2_Black","CUP_optic_TrijiconRx01_black","CUP_optic_MRad",STANAG_OPTICS,WARSAW_OPTICS
 // GL Rifle
 #define GLRIFLE "rhs_weap_akm_gp25"
-#define GLRIFLE_MAG "rhs_30Rnd_762x39mm_bakelite:10"
+#define GLRIFLE_MAG "rhs_30Rnd_762x39mm_bakelite:6"
 #define GLRIFLE_MAG_FLARE "UGL_FlareYellow_F:4"
 #define GLRIFLE_MAG_SMOKE "1Rnd_Smoke_Grenade_shell:6","1Rnd_SmokeRed_Grenade_shell:4","1Rnd_SmokePurple_Grenade_shell:4",GLRIFLE_MAG_FLARE
 #define GLRIFLE_MAG_HE "1Rnd_HE_Grenade_shell:4"
 // Carbine
 #define CARBINE "rhs_weap_akm"
-#define CARBINE_MAG "rhs_30Rnd_762x39mm_bakelite:10"
+#define CARBINE_MAG "rhs_30Rnd_762x39mm_bakelite:6"
 // AR
 #define AR "rhs_weap_akm"
 #define AR_MAG "rhs_75Rnd_762x39mm:7"
