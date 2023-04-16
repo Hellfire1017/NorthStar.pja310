@@ -7,7 +7,7 @@
 #define CAMO_UNIFORM "UK3CB_ADE_O_U_01_B", "UK3CB_ADE_O_U_01", "UK3CB_ADE_O_U_01_C", "UK3CB_ADE_O_U_01_D", "UK3CB_ADE_O_U_01_E", "UK3CB_ADE_O_U_01_F", "UK3CB_ADE_O_U_06_B", "UK3CB_ADE_O_U_06_C", "UK3CB_ADE_O_U_06_D", "UK3CB_ADE_O_U_06_E", "UK3CB_ADE_O_U_06_F"
 #define CAMO_VEST "UK3CB_V_Belt_Rig_Lite_KHK"
 #define CAMO_BACKPACK "UK3CB_B_Fieldpack"
-#define CAMO_HEADGEAR "UK3CB_TKA_I_H_Shemag_Des","UK3CB_H_Shemag_red_02","UK3CB_H_Shemag_grey","UK3CB_H_Shemag_blk","H_ShemagOpen_khk"
+#define CAMO_HEADGEAR "UK3CB_TKC_H_Turban_01_1","UK3CB_TKC_H_Turban_02_1","UK3CB_TKC_H_Turban_06_1","UK3CB_H_Turban_Neckwrap_01_Red","UK3CB_H_Turban_Facewrap_02_Tan","UK3CB_H_Turban_Facewrap_01_Trq"
 // Rifle
 #define RIFLE "rhs_weap_akm"
 #define RIFLE_MAG "rhs_30Rnd_762x39mm_bakelite:8"
