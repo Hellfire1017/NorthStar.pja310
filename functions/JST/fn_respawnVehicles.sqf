@@ -5,7 +5,27 @@ if(!isServer) exitWith {};
 // [west_tank_1,	true,	(25*60),	{},		4],
 CCO_vehs =
 [
-	
+[opf_helo_1,	true,	(30*60),	{},		7],
+[opf_helo_2,	true,	(30*60),	{},		7],
+[opf_helo_3,	true,	(30*60),	{},		7],
+[opf_helo_4,	true,	(30*60),	{},		7],
+[opf_ana_1, 	false,	(10*60),	{},		5],
+[opf_ana_2, 	false,	(10*60),	{},		5],
+[opf_ana_3,	    false,	(10*60),	{},		5],
+[opf_ana_4, 	false,	(10*60),	{},		5],
+[opf_logi_1, 	false,	(10*60),	{},		3],
+[opf_logi_2, 	false,	(10*60),	{},		3],
+[opf_logi_3,	false,	(10*60),	{},		3],
+[opf_logi_4, 	false,	(10*60),	{},		3],
+[blu_car_1, 	false,	(10*60),	{},		3],
+[blu_car_2, 	false,	(10*60),	{},		3],
+[blu_car_3, 	false,	(10*60),	{},		3],
+[blu_aaa_1, 	false,	(10*60),	{},		5],
+[blu_aaa_2, 	false,	(10*60),	{},		5],
+[blu_aaa_3, 	false,	(10*60),	{},		5],
+[blu_logi_1, 	false,	(10*60),	{},		3],
+[blu_logi_2, 	false,	(10*60),	{},		3],
+[blu_logi_3, 	false,	(10*60),	{},		3],
 ];
 
 // Classnames of ground crew

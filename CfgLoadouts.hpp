@@ -7,13 +7,13 @@ class CfgLoadouts {
 	allowMagnifiedOptics = 1;
 
 	// Allow changeable optics on a global level, note: optic options obey allowMagnifiedOptics rules
-	allowChangeableOptics = 1;
+	allowChangeableOptics = 0;
 
 	// Do Vehicle Loadouts
 	// 1 - Add supplies based on side gear script
 	// 0 - Leave them to vanilla defaults
 	// -1 - Clear all vehicle inventories
-	setVehicleLoadouts = 1;
+	setVehicleLoadouts = 0;
 
 	// Fallback: use a basic soldiers loadout when the unit's classname isn't found (for Alive spawning random units)
 	useFallback = 1;

@@ -52,17 +52,17 @@
 #define HAT_TRI_LO 
 #define HAT_MAG 
 // SAM
-#define SAM "CUP_launch_FIM92Stinger"
-#define SAM_MAG 
-#define SAM_MAG2 
+#define SAM "rhs_weap_fim92"
+#define SAM_MAG "rhs_fim92_mag:2"
+#define SAM_MAG2 "rhs_fim92_mag:10"
 // Sniper Rifle
-#define SNIPER "srifle_DMR_06_olive_F"
-#define SNIPER_MAG "20Rnd_762x51_Mag:10"
-#define SNIPER_ATTACHMENTS "optic_LRPS"
+#define SNIPER "UK3CB_SVD_OLD"
+#define SNIPER_MAG "potato_magazine_762x54_10rnd:10"
+#define SNIPER_ATTACHMENTS "rhs_acc_pso1m2", "rhs_acc_tgpv2"
 // Spotter Rifle
-#define SPOTTER RIFLE
-#define SPOTTER_MAG RIFLE_MAG
-#define SPOTTER_ATTACHMENTS "optic_mrco","bipod_01_f_blk"
+#define SPOTTER "rhs_weap_vss"
+#define SPOTTER_MAG "rhs_20rnd_9x39mm_SP6:10"
+#define SPOTTER_ATTACHMENTS "rhs_acc_pso1m2"
 // SMG
 #define SMG CARBINE
 #define SMG_MAG CARBINE_MAG
@@ -76,7 +76,7 @@
 #define LEADER_TOOLS BASE_LEADER_TOOLS,SIDE_KEY
 #define LINKED BASE_LINKED
 #define LEADER_LINKED BASE_LEADER_LINKED
-#define CARRYALL "B_Carryall_mcamo"
+#define CARRYALL "UK3CB_CHC_C_B_HIKER"
 #define GOG
 
 // Specialized Resupply Vehicle Loadouts
@@ -89,7 +89,7 @@ class I_E_Truck_02_Ammo_F {
 
 class Car {
   TransportWeapons[] = {AT};
-  TransportMagazines[] = {RIFLE_MAG,RIFLE_MAG,CARBINE_MAG,GLRIFLE_MAG,AR_MAG,AR_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,GLRIFLE_MAG_SMOKE};
+  TransportMagazines[] = {RIFLE_MAG,RIFLE_MAG,CARBINE_MAG,GLRIFLE_MAG,AR_MAG,AT_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,GLRIFLE_MAG_SMOKE};
   TransportItems[] = {BASE_MEDICAL,BASE_MEDICAL,BASE_MEDICAL,BASE_MEDICAL};
 };
 class Tank {
@@ -325,6 +325,7 @@ class spotter: Fic_Spotter {// Spotter
   magazines[] = {SPOTTER_MAG,BASE_GRENADES};
   items[] += {RADIO_MR,"ACE_ATragMX","ACE_Kestrel4500"};
   linkedItems[] += {LEADER_LINKED};
+  backpackItems[] += {"rhs_acc_1pn93_1"};
   attachments[] = {SPOTTER_ATTACHMENTS};
 };
 class sniper: spotter {// Sniper

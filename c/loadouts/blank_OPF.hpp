@@ -31,7 +31,7 @@
 #define AT_MAG "rhs_rpg7_OG7V_mag:2"
 // MMG
 #define MMG "rhs_weap_pkm"
-#define MMG_MAG "rhs_100Rnd_762x54mmR_green:5"
+#define MMG_MAG "rhs_100Rnd_762x54mmR_green:3"
 #define MMG_ATT ""
 // MAT
 #define MAT "rhs_weap_rpg7"
@@ -132,7 +132,7 @@ class rifleman {// rifleman
   backpackItems[] = {BASE_MEDICAL};
   weapons[] = {RIFLE};
   magazines[] = {RIFLE_MAG,BASE_GRENADES};
-  items[] = {TOOLS,RADIO_SR};
+  items[] = {TOOLS};
   linkedItems[] = {LINKED};
   attachments[] = {RIFLE_ATTACHMENTS};
   opticChoices[] = {ALT_OPTICS};
