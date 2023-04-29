@@ -26,6 +26,9 @@ CCO_vehs =
 [blu_logi_1, 	false,	(10*60),	{},		3],
 [blu_logi_2, 	false,	(10*60),	{},		3],
 [blu_logi_3, 	false,	(10*60),	{},		3],
+[ind_car_1, 	false,	(10*60),	{},		3],
+[ind_car_2, 	false,	(10*60),	{},		3],
+[ind_car_3, 	false,	(10*60),	{},		3]
 ];
 
 // Classnames of ground crew
