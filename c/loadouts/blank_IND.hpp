@@ -325,7 +325,7 @@ class spotter: Fic_Spotter {// Spotter
   magazines[] = {SPOTTER_MAG,BASE_GRENADES};
   items[] += {RADIO_MR,"ACE_ATragMX","ACE_Kestrel4500"};
   linkedItems[] += {LEADER_LINKED};
-  backpackItems[] += {"rhs_acc_1pn93_1"};
+  backpackItems[] += {"rhs_acc_1pn93_1", "rhs_acc_tgpv2:2"};
   attachments[] = {SPOTTER_ATTACHMENTS};
 };
 class sniper: spotter {// Sniper

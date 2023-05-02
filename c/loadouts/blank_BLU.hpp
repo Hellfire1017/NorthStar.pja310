@@ -58,11 +58,11 @@
 // Sniper Rifle
 #define SNIPER "UK3CB_SVD_OLD"
 #define SNIPER_MAG "potato_magazine_762x54_10rnd:10"
-#define SNIPER_ATTACHMENTS "rhs_acc_pso1m2", "rhs_acc_tgpv2"
+#define SNIPER_ATTACHMENTS "rhs_acc_pso1m2"
 // Spotter Rifle
 #define SPOTTER RIFLE
 #define SPOTTER_MAG RIFLE_MAG
-#define SPOTTER_ATTACHMENTS "rhs_acc_pbs1","rhs_acc_2dpzenit"
+#define SPOTTER_ATTACHMENTS "rhs_acc_2dpzenit"
 // SMG
 #define SMG CARBINE
 #define SMG_MAG CARBINE_MAG
