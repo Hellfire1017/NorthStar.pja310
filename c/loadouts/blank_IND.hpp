@@ -57,7 +57,7 @@
 #define SAM_MAG2 "rhs_fim92_mag:10"
 // Sniper Rifle
 #define SNIPER "UK3CB_SVD_OLD"
-#define SNIPER_MAG "potato_magazine_762x54_10rnd:10"
+#define SNIPER_MAG "rhs_10Rnd_762x54mmR_7N14:10"
 #define SNIPER_ATTACHMENTS "rhs_acc_pso1m2", "rhs_acc_tgpv2"
 // Spotter Rifle
 #define SPOTTER "rhs_weap_vss"

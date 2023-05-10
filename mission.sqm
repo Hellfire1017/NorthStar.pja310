@@ -8,7 +8,7 @@ class EditorData
 	toggles=1569;
 	class ItemIDProvider
 	{
-		nextID=4649;
+		nextID=4655;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8522.6533,249.59668,12755.402};
-		dir[]={0.059469443,-0.3979311,-0.9154858};
-		up[]={0.025795015,0.91741532,-0.39709419};
-		aside[]={-0.99789685,-1.8626451e-009,-0.064822815};
+		pos[]={3841.7334,680.74915,17865.264};
+		dir[]={0.089030109,-0.53046203,-0.84306115};
+		up[]={0.055712428,0.8476907,-0.52755404};
+		aside[]={-0.99450022,1.7319107e-006,-0.10502627};
 	};
 };
 binarizationWanted=0;
@@ -53,13 +53,14 @@ addons[]=
 	"ace_medical_treatment",
 	"UK3CB_Factions_ADC_I",
 	"UK3CB_Factions_ADC_B",
-	"potato_missionModules"
+	"potato_missionModules",
+	"UK3CB_Factions_MDF_I"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=28;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -241,6 +242,13 @@ class AddonsMetaData
 			className="potato_missionModules";
 			name="potato_missionModules";
 			author="Potato";
+		};
+		class Item27
+		{
+			className="UK3CB_Factions_MDF";
+			name="3CB Factions - MDF";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
 		};
 	};
 };
@@ -4445,7 +4453,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="SCALAR";
-														value=300;
+														value=250;
 													};
 												};
 												class Item1
@@ -4499,7 +4507,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="SCALAR";
-														value=50;
+														value=75;
 													};
 												};
 												class Item1
@@ -4827,7 +4835,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=152;
+		items=156;
 		class Item0
 		{
 			dataType="Logic";
@@ -8004,7 +8012,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2807.0894,790.20697,19348.146};
+						position[]={2806.1091,789.85144,19346.152};
 					};
 					side="West";
 					flags=5;
@@ -13452,7 +13460,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3841.5386,672.37762,17859.754};
+				position[]={3841.5391,672.37762,17859.754};
 			};
 			side="Empty";
 			flags=4;
@@ -13461,6 +13469,23 @@ class Mission
 			};
 			id=4614;
 			type="Box_NATO_AmmoOrd_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[""ATMine_Range_Mag"",""APERSMine_Range_Mag"",""APERSBoundingMine_Range_Mag"",""SLAMDirectionalMine_Wire_Mag"",""APERSTripMine_Wire_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag"",""SatchelCharge_Remote_Mag""],[5,50,5,5,15,5,5,5]],[[""ACE_Clacker"",""ACE_M26_Clacker"",""ACE_DefusalKit""],[12,6,12]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item121
 		{
@@ -14632,7 +14657,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2836.3926,812.72589,19425.805};
+				position[]={2832.0303,813.40424,19428.191};
 				angles[]={6.0121598,2.1099255,6.2796812};
 			};
 			side="Empty";
@@ -14766,6 +14791,89 @@ class Mission
 					};
 				};
 				nAttributes=3;
+			};
+		};
+		class Item152
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2825.0144,813.12714,19427.273};
+				angles[]={6.0464497,2.1099255,0.022487933};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4649;
+			type="UK3CB_ADM_B_V3S_Reammo";
+			atlOffset=6.1035156e-005;
+		};
+		class Item153
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3816.6238,675.20044,17839.809};
+				angles[]={6.2619715,1.5679234,6.1473632};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4651;
+			type="UK3CB_MDF_I_Quadbike";
+			atlOffset=0.00012207031;
+		};
+		class Item154
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3816.8503,675.25189,17842.996};
+				angles[]={6.2570925,1.5679234,6.1473632};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4652;
+			type="UK3CB_MDF_I_Quadbike";
+			atlOffset=6.1035156e-005;
+		};
+		class Item155
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3851.8789,672.37762,17859.123};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4654;
+			type="ACE_Box_82mm_Mo_Combo";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""rhs_weap_m4_grip3""],[6]],[[""rhs_mag_20Rnd_556x45_M855_Stanag""],[40]],[[""U_C_FormalSuit_01_black_F"",""U_C_FormalSuit_01_gray_F"",""U_C_FormalSuit_01_blue_F"",""U_C_FormalSuit_01_khaki_F"",""UK3CB_CHC_B_U_CIT_01"",""rhs_acc_2dpZenit"",""rhs_acc_rakursPM""],[1,1,1,1,2,8,8]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};

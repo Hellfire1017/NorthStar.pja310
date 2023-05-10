@@ -37,7 +37,7 @@
 #define MAT "rhs_weap_rpg7"
 #define MAT_MAG "rhs_rpg7_PG7V_mag:1"
 #define MAT_MAG2 "rhs_rpg7_PG7V_mag:1"
-#define MAT_OPTIC "rhs_acc_pgo7v"
+#define MAT_OPTIC "rhs_acc_pgo7v3"
 // Facewear
 #define GOG 
 // -------------------- PASTE ABOVE THIS LINE
@@ -57,7 +57,7 @@
 #define SAM_MAG2 
 // Sniper Rifle
 #define SNIPER "UK3CB_SVD_OLD"
-#define SNIPER_MAG "potato_magazine_762x54_10rnd:10"
+#define SNIPER_MAG "rhs_10Rnd_762x54mmR_7N14:10"
 #define SNIPER_ATTACHMENTS "rhs_acc_pso1m2"
 // Spotter Rifle
 #define SPOTTER RIFLE
@@ -149,7 +149,7 @@ class Fic_Soldier_Carbine: rifleman {// carbine-man
 class ftl: rifleman {// FTL
   weapons[] = {GLRIFLE};
   magazines[] = {GLRIFLE_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES};
-  items[] += {LEADER_TOOLS,RADIO_MR};
+  items[] += {LEADER_TOOLS;
   linkedItems[] += {LEADER_LINKED,BINOS};
 };
 class sl: ftl {// SL
@@ -159,6 +159,7 @@ class sl: ftl {// SL
   items[] += {RADIO_LR};
 };
 class plt: sl {// Platoon Leader
+items[] += {RADIO_MR,RADIO_LR};
 };
 class coy: plt {// CO and PL
 };
@@ -201,6 +202,7 @@ class aar: rifleman {// AAR
 class lat: Fic_Soldier_Carbine {// RAT
   magazines[] += {AT_MAG};
   launchers[] = {AT};
+  secondaryAttachments[] = {MAT_OPTIC};
 };
 class rifleman_02: rifleman {// Grenadier
   weapons[] = {GLRIFLE};

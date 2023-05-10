@@ -37,7 +37,7 @@
 #define MAT "rhs_weap_rpg7"
 #define MAT_MAG "rhs_rpg7_PG7V_mag:2"
 #define MAT_MAG2 "rhs_rpg7_PG7V_mag:2"
-#define MAT_OPTIC "rhs_acc_pgo7v"
+#define MAT_OPTIC "rhs_acc_pgo7v3"
 // Facewear
 #define GOG 
 // -------------------- PASTE ABOVE THIS LINE
@@ -149,7 +149,7 @@ class Fic_Soldier_Carbine: rifleman {// carbine-man
 class ftl: rifleman {// FTL
   weapons[] = {GLRIFLE};
   magazines[] = {GLRIFLE_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES};
-  items[] += {LEADER_TOOLS,RADIO_MR};
+  items[] += {LEADER_TOOLS};
   linkedItems[] += {LEADER_LINKED,BINOS};
 };
 class sl: ftl {// SL
@@ -159,6 +159,7 @@ class sl: ftl {// SL
   items[] += {RADIO_LR};
 };
 class plt: sl {// Platoon Leader
+items[] += {RADIO_MR,RADIO_LR};
 };
 class coy: plt {// CO and PL
 };
@@ -204,12 +205,14 @@ class lat: Fic_Soldier_Carbine {// RAT
   magazines[] += {MAT_MAG};
   launchers[] = {AT};
   backpack[] = {"rhs_rpg_6b3"};
+  secondaryAttachments[] = {MAT_OPTIC};
 };
 class rifleman_02: rifleman {// Grenadier
   weapons[] = {RIFLE};
   magazines[] = {RIFLE_MAG,AT_MAG};
   launchers[] = {AT};
   backpack[] = {"rhs_rpg_6b3"};
+  secondaryAttachments[] = {MAT_OPTIC};
 };
 
 
