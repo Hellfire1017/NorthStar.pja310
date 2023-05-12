@@ -17,9 +17,9 @@
 // GL Rifle
 #define GLRIFLE "rhs_weap_akm_gp25"
 #define GLRIFLE_MAG "rhs_30Rnd_762x39mm_bakelite:8"
-#define GLRIFLE_MAG_FLARE "UGL_FlareYellow_F:4"
-#define GLRIFLE_MAG_SMOKE "1Rnd_Smoke_Grenade_shell:6","1Rnd_SmokeRed_Grenade_shell:4","1Rnd_SmokeYellow_Grenade_shell:4",GLRIFLE_MAG_FLARE
-#define GLRIFLE_MAG_HE "1Rnd_HE_Grenade_shell:4"
+#define GLRIFLE_MAG_FLARE "rhs_VG40OP_white:4"
+#define GLRIFLE_MAG_SMOKE "rhs_GDM40:6","rhs_GRD40_Red:4","rhs_GRD40_Green:4",GLRIFLE_MAG_FLARE
+#define GLRIFLE_MAG_HE "rhs_VOG25:4"
 // Carbine
 #define CARBINE "rhs_weap_akm"
 #define CARBINE_MAG "rhs_30Rnd_762x39mm_bakelite:8"
@@ -70,7 +70,7 @@
 #define PISTOL "rhs_weap_pb_6p9"
 #define PISTOL_MAG "rhs_mag_9x18_8_57N181S:3"
 // Grenades
-#define LEADER_GRENADES BASE_FRAG,LEADER_SMOKES,SIDE_CHEM_LIGHT
+#define LEADER_GRENADES BASE_FRAG,LEADER_SMOKES
 // Gear
 #define TOOLS BASE_TOOLS
 #define LEADER_TOOLS BASE_LEADER_TOOLS,SIDE_KEY

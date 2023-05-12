@@ -23,7 +23,7 @@
 #define BASE_MINE "ATMine_Range_Mag:2","APERSBoundingMine_Range_Mag:2","APERSMine_Range_Mag:2"
 #define MINE_DETECTOR "ACE_VMM3"
 #define BINOS "Binocular"
-#define RANGE_FINDER "ACE_Vector"
+#define RANGE_FINDER "Binocular"
 #define BASE_BALLISTICS "ACE_ATragMX","ACE_Kestrel4500"
 #define BASE_ARTILLERY "ACE_artilleryTable",BASE_BALLISTICS
 #define VZ99 "potato_vz99_carryWeapon"
